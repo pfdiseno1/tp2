@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+/* * / reducir tamano de imagenes
+
+.h1{
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-content: space-around;
+}
+galery{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 10px;
+    border: 2px solid lightseagreen;
+    
+}
+
+.galery div{
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid gray;
+}
