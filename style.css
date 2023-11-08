@@ -5,14 +5,15 @@ main{
     align-items: center
 }
 
-.logo{width: 81px;
+.logo{width: 70px;
     padding: 0px;
     display: flex;
-    align-content: space-between;
+    align-content: center;
 }
 
 
 h1{
+    font-size: 30px;
     margin: 10px;
     padding: 0px;
     display: flex;
@@ -25,12 +26,8 @@ h1{
 nav{
     background-color: blue;
     display: flex;
-    justify-content: center;
-    padding: 2px;
-    
-}
-
-img.logo {
+    justify-content:center ;
+    padding: 2px;    
 }
 
 li{
@@ -40,8 +37,9 @@ li{
 
 ul{
     background-color: blue;
+    width: 100%;
     margin-top: auto;
-    padding: 10px;
+    padding: 2px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -53,28 +51,35 @@ a{
     color: antiquewhite;
 }
 .image-conteiner{
-    ;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%
-    height: 300px;
+    justify-content: center;    
+    width: 100%;
+    border: 3px solid rgb(231, 226, 226);    
 }
+img{
+    width: 100%;
+}
+
 .inicial{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70vw;
     
 }
 
 .entrada{
-    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    flex-wrap: wrap;
+
 }
 
 .vivencias{
-    width: 35%;
+    width: 35vw;
 }
 
 footer{

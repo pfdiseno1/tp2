@@ -1,7 +1,18 @@
 *{
     box-sizing: border-box;
 }
-/* * / reducir tamano de imagenes
+
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 50%;
+    display: flex;
+    flex: content;
+
+    }
+
 
 .h1{
     padding: 20px;
@@ -9,21 +20,32 @@
     display: flex;
     align-content: space-around;
 }
-galery{
-    height: 400px;
-    display: flex;
+.galeria{
+    flex: 25%;
+    padding: 5px;
     flex-wrap: wrap;
-    align-content: space-around;
-    padding: 10px;
-    border: 2px solid lightseagreen;
     
 }
-
-.galery div{
-    width: 80px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    border: 2px solid gray;
+.imagenes{
+    display: block;
+    justify-content: space-between;
+    flex: 50%;
+    padding: 5px;
 }
+
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-widht: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-widht:600){
+    .column{
+        flex: 100%;
+    }
+}
+
