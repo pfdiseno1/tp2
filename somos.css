@@ -1,11 +1,18 @@
-body, html{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
-.curri{
-    margin-top: 10px;
-    border-radius: 80%;
+.experiencia{
+   padding: 0 20px ;
+
 }
+.c-v-conteiner{
+    width: 140px;;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.

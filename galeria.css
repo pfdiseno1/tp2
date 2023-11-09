@@ -2,50 +2,27 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
-img{
-    width: 50%;
-    display: flex;
-    flex: content;
-
-    }
-
-
 .h1{
     padding: 20px;
     margin: auto;
     display: flex;
     align-content: space-around;
 }
-.galeria{
-    flex: 25%;
-    padding: 5px;
+
+.img{
+    width: 45%;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
     flex-wrap: wrap;
-    
-}
-.imagenes{
-    display: block;
-    justify-content: space-between;
-    flex: 50%;
+    align-content: center;
+    align-items: center
+    }
+
+
+
+.galeria{
+    display: flex;
+    flex: 9+;
     padding: 5px;
 }
-
-.column img{
-    margin-top: 5px;
-}
-
-@media (max-widht: 800px){
-    .column{
-        flex: 50%;
-    }
-}
-
-@media (max-widht:600){
-    .column{
-        flex: 100%;
-    }
-}
-
