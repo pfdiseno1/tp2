@@ -3,16 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.experiencia{
-   padding: 0 20px ;
-
-}
-.c-v-conteiner{
-    width: 140px;;
+nav{
+    background-color: blue;
     display: flex;
+    justify-content:center ;
+    padding: 2px;    
+}
+
+li{
+    background-color: blue;
+    padding: 20px;
+}
+
+ul{
+    background-color: blue;
+    width: 100%;
+    margin-top: auto;
+    padding: 2px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between baseline;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.logo{
+    width: 70px;
+    padding: 0px;
+    display: flex;
+    align-content: center;
+}
+.experiencia{
+    margin-top: 20px;
+   padding: 0 20px ;    
+}
+
+.experiencia h2{
+    display: flex;
+    justify-content: center;
+}
+.curri-conteiner{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 5px;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    }
+
+.cards{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: solid black;
+    }
+.staff{
+    margin-top: 10px;
+    padding: 0 20px;
 }
-.
+
+img{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+}
+
