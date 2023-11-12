@@ -1,8 +1,3 @@
-
-
-
-
-
 .logo{width: 70px;
     padding: 0px;
     display: flex;
@@ -45,3 +40,66 @@ a{
     text-decoration: none;
     color: antiquewhite;
 }
+.torres{
+    margin: 0 5px;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.columna{
+    width: 45%;
+    box-sizing: border-box;
+    padding:  0,6em;
+
+}
+
+.columna.izquierda{
+    border-right: 1px solid;
+}
+
+.columna.derecha{
+    font-size: 0.9em;
+}
+
+.columna.derecha ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color:lightblue;
+    border-radius: 5px;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    box-shadow: 0 0 10px;
+    color: antiquewhite;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario.acciones{
+    text-align: center;
+}
+
+
+
