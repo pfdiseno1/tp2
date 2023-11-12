@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav{
     background-color: blue;
     display: flex;
@@ -38,45 +39,79 @@ a{
     align-content: center;
 }
 .experiencia{
+    font-family: 'BioRhyme', serif;
     margin-top: 20px;
    padding: 0 20px ;    
 }
 
 .experiencia h2{
+    font-size: 30px;
     display: flex;
     justify-content: center;
-}
-.curri-conteiner{
-    width: auto;
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    flex-direction: column;
-    flex-wrap: nowrap;
     }
 
-.cards{
-    text-align: center;
+.staff{
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    }
+    .staff h2{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    width: 200px;
-    height: auto;
+    flex-wrap: nowrap;
+    justify-content: center;    
+    }
+.general{
+    padding: 15px;
+    margin: 10px;
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+    }
+
+.card-flor{
+    background-image: url(./assets/gotas-de-agua-arriba.jpg);
+    text-align: center; color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 400px;     
     border: solid black;
     }
-.staff{
-    margin-top: 10px;
-    padding: 0 20px;
-}
 
-img{
+    .card-pablo{
+    background-image: url(./assets/pesas-celestes.jpg);
+    text-align: center; color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    display: flex;        
+    border: solid black
+    }
+
+.card-flor img{    
+    width: 180px;
     margin-top: 10px;
     display: flex;
     align-items: center;
     align-content: center;
-    border-radius: 100%;
-}
+    }
+
+.card-pablo img{
+     width: 200px;
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     align-content: center;
+    }
 

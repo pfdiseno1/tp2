@@ -67,13 +67,15 @@ img{
 
 
 .entrada{
+    padding: 5px;
+    margin: 10px;
     border: solid black;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-content: center;
+    justify-content: space-evenly;
 
 }
 

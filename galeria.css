@@ -42,7 +42,7 @@ a{
     color: antiquewhite;
 }
 
-.h1{
+.titulo h1{
     display: flex;
     justify-content: center;     
 }
@@ -57,7 +57,6 @@ a{
     align-items: center;
     border-color: rgb(26, 25, 25);
     }
-
 
 .galeria{
     display: flex;
