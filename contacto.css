@@ -40,32 +40,44 @@ a{
     text-decoration: none;
     color: antiquewhite;
 }
+   
 .torres{
-    margin: 0 5px;
+    margin: 5px;
     padding: 10px;
     display: flex;
-    align-items: baseline;
+    align-items: stretch;
     align-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around   
 
 }
 
 .columna{
     width: 45%;
     box-sizing: border-box;
-    padding:  0,6em;
+    padding: 5px;
 
 }
 
 .columna.izquierda{
-    border-right: 1px solid;
+    border-right: 3px solid rgb(136, 136, 243);
+    font-family: 'Times New Roman', Times, serif; 
+    
+}
+
+h2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .columna.derecha{
-    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif; 
+    
 }
 
 .columna.derecha ul li{
+    font-family: Arial, Helvetica, sans-serif; color: antiquewhite;
     font-size: 0.8em;
 }
 
@@ -77,15 +89,13 @@ a{
 
 .formulario input,
 .formulario textarea{
-    background-color:lightblue;
     border-radius: 5px;
     padding: 0.4em 0.6em;
     font-size: 0.8em;
     width: 70%;
 }
 
-.formulario input[type="submit"]{
-    box-shadow: 0 0 10px;
+.formulario input[type="submit,reset"]{
     color: antiquewhite;
     font-size: 1em;
     width: auto;
