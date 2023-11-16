@@ -60,7 +60,7 @@ a{
 }
 
 .columna.izquierda{
-    border-right: 3px solid rgb(136, 136, 243);
+    border-right: 3px solid blue;
     font-family: 'Times New Roman', Times, serif; 
     
 }
